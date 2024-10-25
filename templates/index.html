@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Generator</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="container">
+            <section class="form-section">
+                <h2 class="centered-title">Create Your Blog with AI</h2>
+                <p class="tagline"></p>
+                <form id="blogForm">
+                    <label for="prompt" class="bold-italic">Enter a topic or idea for your blog:</label>
+                    <textarea id="prompt" name="prompt" rows="4" placeholder="e.g., Benefits of learning Python"></textarea>
+                    <label for="wordLimit"><b>Word Limit<b>:</label>
+                    <input type="number" id="wordLimit" name="wordLimit" class="rounded-input" placeholder="e.g., 500" min="50" required>
+                    <!-- Generate Blog button with loading state -->
+                    <button type="button" id="generateButton" class="btn-primary" onclick="generateBlog()">Generate Blog
+                    </button>
+
+                </form>
+            </section>
+            <section class="output-section">
+                <h2>Generated Blog:</h2>
+                <div id="blogContent" class="blog-content"></div>
+            </section>
+        </div>
+                
+    </main>
+    <footer>
+        <div class="container">
+            <div class="contributor">
+                <img src="/static/images/parthib.jpg" alt="Parthib">
+                <p><a href="https://github.com/Parthibkarak71" target="_blank">Parthib Karak</a></p>
+                <p>Backend Developer</p>
+            </div>
+            <div class="contributor">
+                <img src="/static/images/Agnik.jpg" alt="Agnik">
+                <p><a href="https://github.com/JISHUBISHI" target="_blank">Agnik Bishi</a></p>
+                <p>Frontend Developer</p>
+            </div>
+            <div class="contributor">
+                <img src="/static/images/soumyadip.jpg" alt="Soumyadip">
+                <p><a href="https://github.com/soumadipchangder" target="_blank">Soumyadip Changder</a></p>
+                <p>UI/UX Designer</p>
+            </div>
+        </div>
+        <p>&copy; 2024 AI Blog Generator</p>
+    </footer>
+    
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
