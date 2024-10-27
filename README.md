@@ -79,8 +79,4 @@ Github:- "https://github.com/JISHUBISHI"
 Role :- FRONTEND DEVELOPER
 Contributor 3:-Soumyadip Changder
 Github:- "https://github.com/soumadipchangder"
-<<<<<<< HEAD
-Role :- UI/UX DESIGNER
-=======
-Role :- UI/UX DESIGNER
->>>>>>> 23a1b5a215a84fe216906d8822b82f927912a076
+
